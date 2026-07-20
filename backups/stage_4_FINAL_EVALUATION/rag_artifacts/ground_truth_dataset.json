@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Какой размер пени за просрочку поставки по договору с ООО АэроТехКомплект?",
+    "ground_truth": "0,1% от стоимости непоставленного в срок Товара за каждый день просрочки, но не более 10% от суммы Спецификации.",
+    "ground_truth_sources": [
+      "2024-05-12_CONTRACT-STANDARD_OOO-AeroTechKomplekt_DeliveryOfMotors_v1.pdf"
+    ]
+  },
+  {
+    "question": "В какой суд мы подаем в случае спора с ООО АгроТехСнаб?",
+    "ground_truth": "Арбитражный суд Новосибирской области (согласно Протоколу разногласий).",
+    "ground_truth_sources": [
+      "2024-06-01_PROTOCOL-OF-DISAGREEMENTS_OOO-AgroTechSnab_v1.pdf"
+    ]
+  },
+  {
+    "question": "Есть ли риски при оплате поставщику ООО ПромИмпортКомплект?",
+    "ground_truth": "Да: цессия на ООО ФинТехЛогистика, заблокированные счета, массовый адрес, дырявое NDA, Третейский суд.",
+    "ground_truth_sources": [
+      "2024-08-20_ASSIGNMENT-OF-RIGHTS_OOO-PromImportKomplekt_v1.pdf",
+      "2024-08-20_DueDiligence_Package_OOO-PromImportKomplekt_v1.pdf",
+      "2024-08-20_CONTRACT-SUPPLIER_OOO-PromImportKomplekt_FlightControllers_v1.pdf"
+    ]
+  },
+  {
+    "question": "Какая страна происхождения товара по договору с ООО ВостокАвиаТех?",
+    "ground_truth": "Китайская Народная Республика (КНР), провинция Гуандун.",
+    "ground_truth_sources": [
+      "2024-07-05_DueDiligence_Package_OOO-VostokAviaTech_v1.pdf"
+    ]
+  },
+  {
+    "question": "Действителен ли сертификат RoHS для оптических модулей NV-4K от ООО ВостокАвиаТех?",
+    "ground_truth": "Нет, срок действия истек 30.04.2024.",
+    "ground_truth_sources": [
+      "2024-07-05_DueDiligence_Package_OOO-VostokAviaTech_v1.pdf"
+    ]
+  },
+  {
+    "question": "Какой штраф по NDA за утечку информации у ООО ВостокАвиаТех?",
+    "ground_truth": "10 000 000 рублей за каждый факт разглашения.",
+    "ground_truth_sources": [
+      "2024-07-01_NDA_OOO-VostokAviaTech_v1.pdf"
+    ]
+  },
+  {
+    "question": "Кто фактический исполнитель по договору с ООО ПромИмпортКомплект?",
+    "ground_truth": "ИП Чжан Вэй (КНР, г. Шэньчжэнь).",
+    "ground_truth_sources": [
+      "2024-08-22_SUBCONTRACTOR-NOTIFICATION_OOO-PromImportKomplekt_v1.pdf"
+    ]
+  },
+  {
+    "question": "Какой гарантийный срок на аккумуляторы ATS-BAT-14S-22 от ООО АгроТехСнаб?",
+    "ground_truth": "12 месяцев с даты подписания Акта приема-передачи, но не более 500 циклов заряда-разряда.",
+    "ground_truth_sources": [
+      "2024-06-01_SPEC_OOO-AgroTechSnab_Batteries_v1.pdf"
+    ]
+  },
+  {
+    "question": "Есть ли у ООО ПромИмпортКомплект задолженность перед ФНС?",
+    "ground_truth": "Да, выставлены инкассовые поручения на 4 500 000 руб., счета заблокированы.",
+    "ground_truth_sources": [
+      "2024-08-20_DueDiligence_Package_OOO-PromImportKomplekt_v1.pdf"
+    ]
+  },
+  {
+    "question": "Какая подсудность по договору с ООО АэроТехКомплект?",
+    "ground_truth": "Арбитражный суд Новосибирской области.",
+    "ground_truth_sources": [
+      "2024-05-12_CONTRACT-STANDARD_OOO-AeroTechKomplekt_DeliveryOfMotors_v1.pdf"
+    ]
+  }
+]
