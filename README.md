@@ -37,13 +37,13 @@ Production-ready RAG-система для автоматизации анали
 git clone https://github.com/byzindim/contract-analyzer-v2.git
 cd contract-analyzer-v2
 
-# Настройка окружения
+#### Настройка окружения
 cp .env.example .env
 
-# Запуск всех сервисов (API + Ollama)
+#### Запуск всех сервисов (API + Ollama)
 docker-compose up --build
-# → API: http://localhost:8000/docs
-# → Ollama: http://localhost:11434
+#### → API: http://localhost:8000/docs
+#### → Ollama: http://localhost:11434
 
 ### Вариант 2: Локальный запуск (без Docker)
 #### 1. Установить Ollama и скачать модели
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 #### 3. Запустить FastAPI
 uvicorn app.main:app --reload
-# → http://localhost:8000/docs
+#### → http://localhost:8000/docs
 
 <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;border:2px solid #9C27B0;background:#FFFFFF;vertical-align:middle;margin-right:8px;font-size:16px;line-height:1;">⚙️</span> Архитектура (Advanced RAG Pipeline)
 ```
