@@ -49,7 +49,7 @@ docker-compose up --build
 #### 1. Установить Ollama и скачать модели
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen2.5:14b
-# Модель эмбеддингов загружается через Python (sentence-transformers)
+#### Модель эмбеддингов загружается через Python (sentence-transformers)
 
 #### 2. Установить Python-зависимости
 python -m venv .venv
